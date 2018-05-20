@@ -1,0 +1,24 @@
+{
+  "name": "playlist-api",
+  "version": "1.0.0",
+  "description": "Simple application to get the metadata of the song url ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Shreyas Pimpalkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "html-metadata": "^1.6.3",
+    "preq": "^0.5.6",
+    "url-metadata": "^2.1.7",
+    "winston": "^2.4.1"
+  }
+}
