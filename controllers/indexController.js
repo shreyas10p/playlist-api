@@ -15,9 +15,9 @@ exports.getYoutubeData = function(req, res, next) {
   	console.log(metadata);
   	var bodyData = {
   		title: metadata.title,
-  		thumbnail: metadata.description,
-  		duration: metadata.image,
-  		description: metadata.keywords
+  		description: metadata.description,
+  		thumbnail: metadata.image,
+  		keywords: metadata.keywords
   	};
   	res.send(responseModel.success('meta data received successfully', bodyData));
   },
